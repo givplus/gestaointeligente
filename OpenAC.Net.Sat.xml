@@ -1,0 +1,2653 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenAC.Net.Sat</name>
+    </assembly>
+    <members>
+        <member name="T:OpenAC.Net.Sat.Commom.CancInfCFe">
+            <summary>
+            Class CancInfCFe. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Versao">
+            <summary>
+            Gets the versao.
+            </summary>
+            <value>The versao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.ChCanc">
+            <summary>
+            Gets or sets the ch canc.
+            </summary>
+            <value>The ch canc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.DhEmissao">
+            <summary>
+            Gets or sets the dh emissao.
+            </summary>
+            <value>The dh emissao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.DEmi">
+            <summary>
+            Gets or sets the d emi.
+            </summary>
+            <value>The d emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.HEmi">
+            <summary>
+            Gets or sets the h emi.
+            </summary>
+            <value>The h emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Ide">
+            <summary>
+            Gets the IDE.
+            </summary>
+            <value>The IDE.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Emit">
+            <summary>
+            Gets the emit.
+            </summary>
+            <value>The emit.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Dest">
+            <summary>
+            Gets the dest.
+            </summary>
+            <value>The dest.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.Total">
+            <summary>
+            Gets the total.
+            </summary>
+            <value>The total.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Commom.CancInfCFe.InfAdic">
+            <summary>
+            Gets the inf adic.
+            </summary>
+            <value>The inf adic.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFe.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFe.GetQRCode">
+            <summary>
+            Retorna o valor do QrCode
+            </summary>
+            <returns>Código QrCode</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFe.PreencherNItem">
+            <summary>
+            Função para preencher o número do item da lista de itens da CFe.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCanc">
+            <summary>
+            Class CFeCanc. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCanc.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFe" /> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCanc.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeCanc"/> class.
+            </summary>
+            <param name="cfe">The cfe.</param>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCanc.InfCFe">
+            <summary>
+            Gets or sets the inf c fe.
+            </summary>
+            <value>The inf c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCanc.Signature">
+            <summary>
+            Gets or sets the signature.
+            </summary>
+            <value>The signature.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCanc.GetQRCode">
+            <summary>
+            Retorna o valor do QrCode
+            </summary>
+            <returns>Código QrCode</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCancDest">
+            <summary>
+            Class CFeCancDest. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancDest.CPF">
+            <summary>
+            Gets or sets the CPF.
+            </summary>
+            <value>The CPF.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancDest.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancDest.ShouldSerializeCPF">
+            <summary>
+            Shoulds the serialize CPF.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancDest.ShouldSerializeCNPJ">
+            <summary>
+            Shoulds the serialize CNPJ.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCancEmit">
+            <summary>
+            Class CFeCancEmit. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancEmit.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeEmit" /> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.XNome">
+            <summary>
+            Gets or sets the x nome.
+            </summary>
+            <value>The x nome.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.XFant">
+            <summary>
+            Gets or sets the x fant.
+            </summary>
+            <value>The x fant.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.EnderEmit">
+            <summary>
+            Gets the ender emit.
+            </summary>
+            <value>The ender emit.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.IE">
+            <summary>
+            Gets or sets the ie.
+            </summary>
+            <value>The ie.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancEmit.IM">
+            <summary>
+            Gets or sets the im.
+            </summary>
+            <value>The im.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCancIde">
+            <summary>
+            Class CFeCancIde. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancIde.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeIde" /> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.UF">
+            <summary>
+            Gets or sets the c uf.
+            </summary>
+            <value>The c uf.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.CNf">
+            <summary>
+            Gets or sets the c nf.
+            </summary>
+            <value>The c nf.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.Modelo">
+            <summary>
+            Gets or sets the modelo.
+            </summary>
+            <value>The modelo.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.NSerieSAT">
+            <summary>
+            Gets or sets the nserie sat.
+            </summary>
+            <value>The nserie sat.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.NCFe">
+            <summary>
+            Gets or sets the n c fe.
+            </summary>
+            <value>The n c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.DhEmissao">
+            <summary>
+            A data e a hora da emissão na CFe
+            </summary>
+            <value>The dh emissao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.DEmi">
+            <summary>
+            Gets or sets the d emi.
+            </summary>
+            <value>The d emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.HEmi">
+            <summary>
+            Gets or sets the h emi.
+            </summary>
+            <value>The h emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.CDv">
+            <summary>
+            Gets or sets the c dv.
+            </summary>
+            <value>The c dv.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.SignAC">
+            <summary>
+            Gets or sets the sign ac.
+            </summary>
+            <value>The sign ac.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.AssinaturaQrcode">
+            <summary>
+            Gets or sets the assinatura qrcode.
+            </summary>
+            <value>The assinatura qrcode.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancIde.NumeroCaixa">
+            <summary>
+            Gets or sets the numero caixa.
+            </summary>
+            <value>The numero caixa.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancIde.ShouldSerializeDEmi">
+            <summary>
+            Shoulds the serialize d emi.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancIde.ShouldSerializeHEmi">
+            <summary>
+            Shoulds the serialize h emi.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancIde.ShouldSerializeAssinaturaQrcode">
+            <summary>
+            Shoulds the serialize assinatura qrcode.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCancInfAdic">
+            <summary>
+            Class CFeCancInfAdic. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeCancInfAdic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeInfAdic" /> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancInfAdic.ObsFisco">
+            <summary>
+            Gets or sets the obs fisco.
+            </summary>
+            <value>The obs fisco.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeCancTotal">
+            <summary>
+            Class CFeCancTotal. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeCancTotal.VCFe">
+            <summary>
+            Gets or sets the v c fe.
+            </summary>
+            <value>The v c fe.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeDest">
+            <summary>
+            Class CFeDest.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDest.CPF">
+            <summary>
+            Gets or sets the CPF.
+            </summary>
+            <value>The CPF.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDest.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDest.Nome">
+            <summary>
+            Gets or sets the x nome.
+            </summary>
+            <value>The x nome.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeDet">
+            <summary>
+            Class CFeDet.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDet.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDet"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDet.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDet"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDet.NItem">
+            <summary>
+            Gets or sets the n item.
+            </summary>
+            <value>The n item.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDet.Prod">
+            <summary>
+            Gets or sets the product.
+            </summary>
+            <value>The product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDet.Imposto">
+            <summary>
+            Gets or sets the imposto.
+            </summary>
+            <value>The imposto.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDet.InfAdProd">
+            <summary>
+            Gets or sets the inf ad product.
+            </summary>
+            <value>The inf ad product.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDet.OnParentChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDetCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDetCollection"/> class.
+            </summary>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDetCollection.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDetCollection"/> class.
+            </summary>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeDetImposto">
+            <summary>
+            Class CFeDetImposto. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDetImposto.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDetImposto"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.VItem12741">
+            <summary>
+            Gets or sets the v item12741.
+            </summary>
+            <value>The v item12741.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.Imposto">
+            <summary>
+            Gets or sets the item.
+            </summary>
+            <value>The item.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.Pis">
+            <summary>
+            Gets or sets the pis.
+            </summary>
+            <value>The pis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.PisSt">
+            <summary>
+            Gets or sets the pisst.
+            </summary>
+            <value>The pisst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.Cofins">
+            <summary>
+            Gets or sets the cofins.
+            </summary>
+            <value>The cofins.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetImposto.CofinsSt">
+            <summary>
+            Gets or sets the cofinsst.
+            </summary>
+            <value>The cofinsst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeDetProd">
+            <summary>
+            Class CFeDetProd. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDetProd.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDetProd"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeDetProd.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeDetProd"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.EhCombustivel">
+            <summary>
+            Gets or sets a value indicating whether [eh combustivel].
+            </summary>
+            <value><c>true</c> if [eh combustivel]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.CProd">
+            <summary>
+            Gets or sets the c product.
+            </summary>
+            <value>The c product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.CEAN">
+            <summary>
+            Gets or sets the c ean.
+            </summary>
+            <value>The c ean.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.XProd">
+            <summary>
+            Gets or sets the x product.
+            </summary>
+            <value>The x product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.NCM">
+            <summary>
+            Gets or sets the NCM.
+            </summary>
+            <value>The NCM.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.CEST">
+            <summary>
+            Gets or sets the cest.
+            </summary>
+            <value>The cest.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.CFOP">
+            <summary>
+            Gets or sets the cfop.
+            </summary>
+            <value>The cfop.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.UCom">
+            <summary>
+            Gets or sets the u COM.
+            </summary>
+            <value>The u COM.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.QCom">
+            <summary>
+            Gets or sets the q COM.
+            </summary>
+            <value>The q COM.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VUnCom">
+            <summary>
+            Gets or sets the v un COM.
+            </summary>
+            <value>The v un COM.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VProd">
+            <summary>
+            Gets or sets the v product.
+            </summary>
+            <value>The v product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.IndRegra">
+            <summary>
+            Gets or sets the ind regra.
+            </summary>
+            <value>The ind regra.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VDesc">
+            <summary>
+            Gets or sets the v desc.
+            </summary>
+            <value>The v desc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VOutro">
+            <summary>
+            Gets or sets the v outro.
+            </summary>
+            <value>The v outro.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VItem">
+            <summary>
+            Gets or sets the v item.
+            </summary>
+            <value>The v item.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VRatDesc">
+            <summary>
+            Gets or sets the v rat desc.
+            </summary>
+            <value>The v rat desc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.VRatAcr">
+            <summary>
+            Gets or sets the v rat acr.
+            </summary>
+            <value>The v rat acr.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeDetProd.ObsFiscoDet">
+            <summary>
+            Gets or sets the obs fisco det.
+            </summary>
+            <value>The obs fisco det.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeEmit">
+            <summary>
+            Class CFeEmit. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeEmit.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeEmit"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.XNome">
+            <summary>
+            Gets or sets the x nome.
+            </summary>
+            <value>The x nome.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.XFant">
+            <summary>
+            Gets or sets the x fant.
+            </summary>
+            <value>The x fant.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.EnderEmit">
+            <summary>
+            Gets the ender emit.
+            </summary>
+            <value>The ender emit.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.IE">
+            <summary>
+            Gets or sets the ie.
+            </summary>
+            <value>The ie.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.IM">
+            <summary>
+            Gets or sets the im.
+            </summary>
+            <value>The im.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.CRegTrib">
+            <summary>
+            Gets or sets the c reg trib.
+            </summary>
+            <value>The c reg trib.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.CRegTribISSQN">
+            <summary>
+            Gets or sets the c reg trib issqn.
+            </summary>
+            <value>The c reg trib issqn.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEmit.IndRatISSQN">
+            <summary>
+            Gets or sets the ind rat issqn.
+            </summary>
+            <value>The ind rat issqn.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeEnderEmit">
+            <summary>
+            Class CFeEnderEmit. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.XLgr">
+            <summary>
+            Gets or sets the x LGR.
+            </summary>
+            <value>The x LGR.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.Nro">
+            <summary>
+            Gets or sets the nro.
+            </summary>
+            <value>The nro.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.XCpl">
+            <summary>
+            Gets or sets the x CPL.
+            </summary>
+            <value>The x CPL.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.XBairro">
+            <summary>
+            Gets or sets the x bairro.
+            </summary>
+            <value>The x bairro.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.XMun">
+            <summary>
+            Gets or sets the x mun.
+            </summary>
+            <value>The x mun.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEnderEmit.CEP">
+            <summary>
+            Gets or sets the cep.
+            </summary>
+            <value>The cep.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeEntrega">
+            <summary>
+            Class CFeEntrega. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.XLgr">
+            <summary>
+            Gets or sets the x LGR.
+            </summary>
+            <value>The x LGR.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.Nro">
+            <summary>
+            Gets or sets the nro.
+            </summary>
+            <value>The nro.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.XCpl">
+            <summary>
+            Gets or sets the x CPL.
+            </summary>
+            <value>The x CPL.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.XBairro">
+            <summary>
+            Gets or sets the x bairro.
+            </summary>
+            <value>The x bairro.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.XMun">
+            <summary>
+            Gets or sets the x mun.
+            </summary>
+            <value>The x mun.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeEntrega.UF">
+            <summary>
+            Gets or sets the uf.
+            </summary>
+            <value>The uf.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeIde">
+            <summary>
+            Class CFeIde. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeIde.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeIde"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.UF">
+            <summary>
+            Gets or sets the c uf.
+            </summary>
+            <value>The c uf.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.cNF">
+            <summary>
+            Gets or sets the c nf.
+            </summary>
+            <value>The c nf.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.Modelo">
+            <summary>
+            Gets or sets the modelo.
+            </summary>
+            <value>The modelo.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.NSerieSAT">
+            <summary>
+            Gets or sets the nserie sat.
+            </summary>
+            <value>The nserie sat.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.NCFe">
+            <summary>
+            Gets or sets the n c fe.
+            </summary>
+            <value>The n c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.DhEmissao">
+            <summary>
+            A data e a hora da emissão na CFe
+            </summary>
+            <value>The dh emissao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.DEmi">
+            <summary>
+            Gets or sets the d emi.
+            </summary>
+            <value>The d emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.HEmi">
+            <summary>
+            Gets or sets the h emi.
+            </summary>
+            <value>The h emi.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.CDv">
+            <summary>
+            Gets or sets the c dv.
+            </summary>
+            <value>The c dv.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.TpAmb">
+            <summary>
+            Gets or sets the tp amb.
+            </summary>
+            <value>The tp amb.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.CNPJ">
+            <summary>
+            Gets or sets the CNPJ.
+            </summary>
+            <value>The CNPJ.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.SignAC">
+            <summary>
+            Gets or sets the sign ac.
+            </summary>
+            <value>The sign ac.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.AssinaturaQrcode">
+            <summary>
+            Gets or sets the assinatura qrcode.
+            </summary>
+            <value>The assinatura qrcode.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeIde.NumeroCaixa">
+            <summary>
+            Gets or sets the numero caixa.
+            </summary>
+            <value>The numero caixa.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeInfAdic">
+            <summary>
+            Class CFeInfAdic. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeInfAdic.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeInfAdic"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeInfAdic.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeInfAdic"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeInfAdic.InfCpl">
+            <summary>
+            Gets or sets the inf CPL.
+            </summary>
+            <value>The inf CPL.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeInfAdic.ObsFisco">
+            <summary>
+            Gets or sets the obs fisco.
+            </summary>
+            <value>The obs fisco.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeObsFisco">
+            <summary>
+            Class CFeObsFisco. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeObsFisco.XCampo">
+            <summary>
+            Gets or sets the x campo.
+            </summary>
+            <value>The x campo.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeObsFisco.XTexto">
+            <summary>
+            Gets or sets the x texto.
+            </summary>
+            <value>The x texto.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFePgto">
+            <summary>
+            Class CFePgto. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFePgto.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFePgto"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFePgto.Pagamentos">
+            <summary>
+            Gets or sets the pagamentos.
+            </summary>
+            <value>The pagamentos.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFePgto.VTroco">
+            <summary>
+            Gets or sets the v troco.
+            </summary>
+            <value>The v troco.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFePgtoMp">
+            <summary>
+            Class CFePgtoMp. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFePgtoMp.CMp">
+            <summary>
+            Gets or sets the c mp.
+            </summary>
+            <value>The c mp.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFePgtoMp.VMp">
+            <summary>
+            Gets or sets the v mp.
+            </summary>
+            <value>The v mp.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFePgtoMp.CAdmC">
+            <summary>
+            Gets or sets the c adm c.
+            </summary>
+            <value>The c adm c.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeTotal">
+            <summary>
+            Class CFeTotal. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.CFeTotal.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFeTotal"/> class.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotal.ICMSTot">
+            <summary>
+            Gets or sets the icms tot.
+            </summary>
+            <value>The icms tot.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotal.VCFe">
+            <summary>
+            Gets or sets the v c fe.
+            </summary>
+            <value>The v c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotal.ISSQNTot">
+            <summary>
+            Gets or sets the issq ntot.
+            </summary>
+            <value>The issq ntot.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotal.DescAcrEntr">
+            <summary>
+            Gets or sets the desc acr entr.
+            </summary>
+            <value>The desc acr entr.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotal.VCFeLei12741">
+            <summary>
+            Gets or sets the v c fe lei12741.
+            </summary>
+            <value>The v c fe lei12741.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeTotalDescAcr">
+            <summary>
+            Class CFeTotalDescAcr. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalDescAcr.VDescSubtot">
+            <summary>
+            Gets or sets the v desc subtot.
+            </summary>
+            <value>The v desc subtot.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalDescAcr.VAcresSubtot">
+            <summary>
+            Gets or sets the v acres subtot.
+            </summary>
+            <value>The v acres subtot.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeTotalIcms">
+            <summary>
+            Class CFeTotalICMS. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VICMS">
+            <summary>
+            Gets or sets the vicms.
+            </summary>
+            <value>The vicms.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VProd">
+            <summary>
+            Gets or sets the v product.
+            </summary>
+            <value>The v product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VDesc">
+            <summary>
+            Gets or sets the v desc.
+            </summary>
+            <value>The v desc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VPIS">
+            <summary>
+            Gets or sets the vpis.
+            </summary>
+            <value>The vpis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VCOFINS">
+            <summary>
+            Gets or sets the vcofins.
+            </summary>
+            <value>The vcofins.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VPISST">
+            <summary>
+            Gets or sets the vpisst.
+            </summary>
+            <value>The vpisst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VCOFINSST">
+            <summary>
+            Gets or sets the vcofinsst.
+            </summary>
+            <value>The vcofinsst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIcms.VOutro">
+            <summary>
+            Gets or sets the v outro.
+            </summary>
+            <value>The v outro.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CFeTotalIssqn">
+            <summary>
+            Class CFeTotalISSQN. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VBC">
+            <summary>
+            Gets or sets the VBC.
+            </summary>
+            <value>The VBC.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VISS">
+            <summary>
+            Gets or sets the viss.
+            </summary>
+            <value>The viss.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VPIS">
+            <summary>
+            Gets or sets the vpis.
+            </summary>
+            <value>The vpis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VCOFINS">
+            <summary>
+            Gets or sets the vcofins.
+            </summary>
+            <value>The vcofins.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VPISST">
+            <summary>
+            Gets or sets the vpisst.
+            </summary>
+            <value>The vpisst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CFeTotalIssqn.VCOFINSST">
+            <summary>
+            Gets or sets the vcofinsst.
+            </summary>
+            <value>The vcofinsst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CodigoMP">
+            <summary>
+            Enum CodigoMP
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.Dinheiro">
+            <summary>
+            The dinheiro
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.Cheque">
+            <summary>
+            The cheque
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.CartaodeCredito">
+            <summary>
+            The cartaode credito
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.CartaodeDebito">
+            <summary>
+            The cartaode debito
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.CreditoLoja">
+            <summary>
+            The credito loja
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.ValeAlimentacao">
+            <summary>
+            The vale alimentacao
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.ValeRefeicao">
+            <summary>
+            The vale refeicao
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.ValePresente">
+            <summary>
+            The vale presente
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.ValeCombustivel">
+            <summary>
+            The vale combustivel
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.BoletoBancario">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.DepositoBancario">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.PIX">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.TransferenciaBancaria">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.ProgramaFidelidade">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.SemPagamento">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.CodigoMP.Outros">
+            <summary>
+            The outros
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.EstadoOperacao">
+            <summary>
+            Enum EstadoOperacao
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.EstadoOperacao.Desbloqueado">
+            <summary>
+            The desbloqueado
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.EstadoOperacao.BloqueioSEFAZ">
+            <summary>
+            The bloqueio sefaz
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.EstadoOperacao.BloqueioComtribuinte">
+            <summary>
+            The bloqueio comtribuinte
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.EstadoOperacao.BloqueioAutonomo">
+            <summary>
+            The bloqueio autonomo
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.EstadoOperacao.BloqueioDesativacao">
+            <summary>
+            The bloqueio desativacao
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofins">
+            <summary>
+            Class ImpostoCOFINS. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofins.Cofins">
+            <summary>
+            Gets or sets the cofins.
+            </summary>
+            <value>The cofins.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsAliq">
+            <summary>
+            Class ImpostoCOFINSAliq. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.Interfaces.ICFeCofins" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsAliq.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsAliq.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsAliq.PCofins">
+            <summary>
+            Gets or sets the pcofins.
+            </summary>
+            <value>The pcofins.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsAliq.VCofins">
+            <summary>
+            Gets or sets the vcofins.
+            </summary>
+            <value>The vcofins.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsNt">
+            <summary>
+            Class ImpostoCOFINSNT. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.Interfaces.ICFeCofins" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsNt.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsOutr">
+            <summary>
+            Class ImpostoCOFINSOutr. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.Interfaces.ICFeCofins" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.CST">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.PCofins">
+            <summary>
+            Gets or sets the p pis.
+            </summary>
+            <value>The p pis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsOutr.VCofins">
+            <summary>
+            Gets or sets the v pis.
+            </summary>
+            <value>The v pis.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoCofinsOutr.ShouldSerializeVBc">
+            <summary>
+            Shoulds the serialize v bc.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoCofinsOutr.ShouldSerializePCofins">
+            <summary>
+            Shoulds the serialize ppis.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsQtde">
+            <summary>
+            Class ImpostoCOFINSQtde. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.Interfaces.ICFeCofins" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsQtde.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsQtde.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsQtde.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsQtde.VCofins">
+            <summary>
+            Gets or sets the vcofins.
+            </summary>
+            <value>The vcofins.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsSn">
+            <summary>
+            Class ImpostoCOFINSSN. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.Interfaces.ICFeCofins" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSn.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoCofinsSt">
+            <summary>
+            Class ImpostoCOFINSST. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSt.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSt.PCofins">
+            <summary>
+            Gets or sets the p COFINS.
+            </summary>
+            <value>The p COFINS.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSt.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSt.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoCofinsSt.VCofins">
+            <summary>
+            Gets or sets the v COFINS.
+            </summary>
+            <value>The v COFINS.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoCofinsSt.ShouldSerializeVBc">
+            <summary>
+            Shoulds the serialize v bc.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoCofinsSt.ShouldSerializePCofins">
+            <summary>
+            Shoulds the serialize pCOFINS.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIcms">
+            <summary>
+            Class ImpostoICMS. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms.Icms">
+            <summary>
+            Gets or sets the item.
+            </summary>
+            <value>The item.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIcms00">
+            <summary>
+            Classe ImpostoICMS00. Classe para os imposto com Cst 00, 20 ou 90.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms00.Orig">
+            <summary>
+            Gets or sets the original.
+            </summary>
+            <value>The original.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms00.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms00.PIcms">
+            <summary>
+            Gets or sets the p icms.
+            </summary>
+            <value>The p icms.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms00.VIcms">
+            <summary>
+            Gets or sets the v icms.
+            </summary>
+            <value>The v icms.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIcms40">
+            <summary>
+            Classe ImpostoICMS40. Classe para os imposto com Cst 40, 41, 50 ou 60.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms40.Orig">
+            <summary>
+            Gets or sets the original.
+            </summary>
+            <value>The original.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcms40.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIcmsSn102">
+            <summary>
+            Class ImpostoICMSSN102. Classe para os imposto com CSOSN 102, 300 ou 500.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn102.Orig">
+            <summary>
+            Gets or sets the original.
+            </summary>
+            <value>The original.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn102.Csosn">
+            <summary>
+            Gets or sets the csosn.
+            </summary>
+            <value>The csosn.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIcmsSn900">
+            <summary>
+            Class ImpostoICMSSN900. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn900.Orig">
+            <summary>
+            Gets or sets the original.
+            </summary>
+            <value>The original.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn900.Csosn">
+            <summary>
+            Gets or sets the csosn.
+            </summary>
+            <value>The csosn.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn900.PIcms">
+            <summary>
+            Gets or sets the p icms.
+            </summary>
+            <value>The p icms.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIcmsSn900.VIcms">
+            <summary>
+            Gets or sets the v icms.
+            </summary>
+            <value>The v icms.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoIssqn">
+            <summary>
+            Class ImpostoISSQN. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.VDeducIssqn">
+            <summary>
+            Gets or sets the v deduc issqn.
+            </summary>
+            <value>The v deduc issqn.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.VAliq">
+            <summary>
+            Gets or sets the v aliq.
+            </summary>
+            <value>The v aliq.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.VIssqn">
+            <summary>
+            Gets or sets the vissqn.
+            </summary>
+            <value>The vissqn.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.CMunFg">
+            <summary>
+            Gets or sets the c mun fg.
+            </summary>
+            <value>The c mun fg.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.CListServ">
+            <summary>
+            Gets or sets the c list serv.
+            </summary>
+            <value>The c list serv.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.CServTribMun">
+            <summary>
+            Gets or sets the c serv trib mun.
+            </summary>
+            <value>The c serv trib mun.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.CNatOp">
+            <summary>
+            Gets or sets the c nat op.
+            </summary>
+            <value>The c nat op.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoIssqn.IndIncFisc">
+            <summary>
+            Gets or sets the ind inc fisc.
+            </summary>
+            <value>The ind inc fisc.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPIS">
+            <summary>
+            Class ImpostoPIS. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPIS.Pis">
+            <summary>
+            Gets or sets the pis.
+            </summary>
+            <value>The pis.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisAliq">
+            <summary>
+            Class ImpostoPISAliq. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisAliq.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisAliq.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisAliq.PPis">
+            <summary>
+            Gets or sets the p pis.
+            </summary>
+            <value>The p pis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisAliq.VPis">
+            <summary>
+            Gets or sets the v pis.
+            </summary>
+            <value>The v pis.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisNt">
+            <summary>
+            Class ImpostoPISNT. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisNt.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisOutr">
+            <summary>
+            Class ImpostoPISOutr. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.PPis">
+            <summary>
+            Gets or sets the p pis.
+            </summary>
+            <value>The p pis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisOutr.VPis">
+            <summary>
+            Gets or sets the v pis.
+            </summary>
+            <value>The v pis.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoPisOutr.ShouldSerializeVBc">
+            <summary>
+            Shoulds the serialize v bc.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoPisOutr.ShouldSerializePPis">
+            <summary>
+            Shoulds the serialize ppis.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisQtde">
+            <summary>
+            Class ImpostoPISQtde. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisQtde.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisQtde.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisQtde.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisQtde.VPis">
+            <summary>
+            Gets or sets the vpis.
+            </summary>
+            <value>The vpis.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisSn">
+            <summary>
+            Class ImpostoPISSN. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSn.Cst">
+            <summary>
+            Gets or sets the Cst.
+            </summary>
+            <value>The Cst.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ImpostoPisSt">
+            <summary>
+            Class ImpostoPISST. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSt.VBc">
+            <summary>
+            Gets or sets the v bc.
+            </summary>
+            <value>The v bc.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSt.PPis">
+            <summary>
+            Gets or sets the p pis.
+            </summary>
+            <value>The p pis.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSt.QBcProd">
+            <summary>
+            Gets or sets the q bc product.
+            </summary>
+            <value>The q bc product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSt.VAliqProd">
+            <summary>
+            Gets or sets the v aliq product.
+            </summary>
+            <value>The v aliq product.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ImpostoPisSt.VPis">
+            <summary>
+            Gets or sets the v pis.
+            </summary>
+            <value>The v pis.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoPisSt.ShouldSerializeVBc">
+            <summary>
+            Shoulds the serialize v bc.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ImpostoPisSt.ShouldSerializePPis">
+            <summary>
+            Shoulds the serialize ppis.
+            </summary>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.IndRegra">
+            <summary>
+            Enum IndRegra
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.IndRegra.Arredondamento">
+            <summary>
+            The arredondamento
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.IndRegra.Truncamento">
+            <summary>
+            The truncamento
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.InfCFe">
+            <summary>
+            Class infCFe.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.InfCFe.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.InfCFe"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.InfCFe.#ctor(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.CFe" /> class.
+            </summary>
+            <returns>CFe.</returns>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Versao">
+            <summary>
+            Gets the versao.
+            </summary>
+            <value>The versao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.VersaoDadosEnt">
+            <summary>
+            Gets the versao dados ent.
+            </summary>
+            <value>The versao dados ent.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.VersaoSb">
+            <summary>
+            Gets the versao sb.
+            </summary>
+            <value>The versao sb.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Ide">
+            <summary>
+            Gets the IDE.
+            </summary>
+            <value>The IDE.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Emit">
+            <summary>
+            Gets the emit.
+            </summary>
+            <value>The emit.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Dest">
+            <summary>
+            Gets the dest.
+            </summary>
+            <value>The dest.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Entrega">
+            <summary>
+            Gets the entrega.
+            </summary>
+            <value>The entrega.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Det">
+            <summary>
+            Gets the det.
+            </summary>
+            <value>The det.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Total">
+            <summary>
+            Gets the total.
+            </summary>
+            <value>The total.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.Pagto">
+            <summary>
+            Gets the pgto.
+            </summary>
+            <value>The pgto.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.InfAdic">
+            <summary>
+            Gets the inf adic.
+            </summary>
+            <value>The inf adic.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.InfCFe.ObsFisco">
+            <summary>
+            Gets or sets the obs fisco.
+            </summary>
+            <value>The obs fisco.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.InfCFe.OnParentChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:OpenAC.Net.Sat.ModeloSat">
+            <summary>
+            Enum ModeloSat
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.NivelBateria">
+            <summary>
+            Enum NivelBateria
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.NivelBateria.Alto">
+            <summary>
+            The alto
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.NivelBateria.Medio">
+            <summary>
+            The medio
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.NivelBateria.Baixo">
+            <summary>
+            The baixo
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.OrigemMercadoria">
+            <summary>
+            Enum OrigemMercadoria
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.Nacional">
+            <summary>
+            The nacional
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.EstrangeiraImportacaoDireta">
+            <summary>
+            The estrangeira importacao direta
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.EstrangeiraAdquiridaBrasil">
+            <summary>
+            The estrangeira adquirida brasil
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.NacionalConteudoImportacaoSuperior40">
+            <summary>
+            The nacional conteudo importacao superior40
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.NacionalProcessosBasicos">
+            <summary>
+            The nacional processos basicos
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.NacionalConteudoImportacaoInferiorIgual40">
+            <summary>
+            The nacional conteudo importacao inferior igual40
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.EstrangeiraImportacaoDiretaSemSimilar">
+            <summary>
+            The estrangeira importacao direta sem similar
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.EstrangeiraAdquiridaBrasilSemSimilar">
+            <summary>
+            The estrangeira adquirida brasil sem similar
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.OrigemMercadoria.NacionalConteudoImportacaoSuperior70">
+            <summary>
+            The nacional conteudo importacao superior70
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.ProdObsFisco">
+            <summary>
+            Class ProdObsFisco. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ProdObsFisco.XCampoDet">
+            <summary>
+            Gets or sets the x campo det.
+            </summary>
+            <value>The x campo det.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.ProdObsFisco.XTextoDet">
+            <summary>
+            Gets or sets the x texto det.
+            </summary>
+            <value>The x texto det.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.RatIssqn">
+            <summary>
+            Enum RatISSQN
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RatIssqn.Sim">
+            <summary>
+            The sim
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RatIssqn.Nao">
+            <summary>
+            The nao
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.RegTrib">
+            <summary>
+            Enum RegTrib
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTrib.Normal">
+            <summary>
+            The normal
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTrib.SimplesNacional">
+            <summary>
+            The simples nacional
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.RegTribIssqn">
+            <summary>
+            Enum RegTribISSQN
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.Nenhum">
+            <summary>
+            The nenhum
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.MicroempresaMunicipal">
+            <summary>
+            The microempresa municipal
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.Estimativa">
+            <summary>
+            The estimativa
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.SociedadeProfissionais">
+            <summary>
+            The sociedade profissionais
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.Cooperativa">
+            <summary>
+            The cooperativa
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.MEI">
+            <summary>
+            The mei
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.RegTribIssqn.MEEPP">
+            <summary>
+            The meepp
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.SatStatus">
+            <summary>
+            Class SATStatus.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.NSerie">
+            <summary>
+            Gets or sets the nserie.
+            </summary>
+            <value>The nserie.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.LanMac">
+            <summary>
+            Gets or sets the lan mac.
+            </summary>
+            <value>The lan mac.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.StatusLan">
+            <summary>
+            Gets or sets the status lan.
+            </summary>
+            <value>The status lan.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.NivelBateria">
+            <summary>
+            Gets or sets the nivel bateria.
+            </summary>
+            <value>The nivel bateria.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.MTTotal">
+            <summary>
+            Gets or sets the mt total.
+            </summary>
+            <value>The mt total.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.MTUsada">
+            <summary>
+            Gets or sets the mt usada.
+            </summary>
+            <value>The mt usada.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.DhAtual">
+            <summary>
+            Gets or sets the dh atual.
+            </summary>
+            <value>The dh atual.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.VerSb">
+            <summary>
+            Gets or sets the ver sb.
+            </summary>
+            <value>The ver sb.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.VerLayout">
+            <summary>
+            Gets or sets the ver layout.
+            </summary>
+            <value>The ver layout.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.UltimoCFe">
+            <summary>
+            Gets or sets the ultimo c fe.
+            </summary>
+            <value>The ultimo c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.ListaInicial">
+            <summary>
+            Gets or sets the lista inicial.
+            </summary>
+            <value>The lista inicial.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.ListaFinal">
+            <summary>
+            Gets or sets the lista final.
+            </summary>
+            <value>The lista final.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.DhCFe">
+            <summary>
+            Gets or sets the dh c fe.
+            </summary>
+            <value>The dh c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.DhUltima">
+            <summary>
+            Gets or sets the dh ultima.
+            </summary>
+            <value>The dh ultima.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.CertEmissao">
+            <summary>
+            Gets or sets the cert emissao.
+            </summary>
+            <value>The cert emissao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.CertVencimento">
+            <summary>
+            Gets or sets the cert vencimento.
+            </summary>
+            <value>The cert vencimento.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatStatus.EstadoOperacao">
+            <summary>
+            Gets or sets the estado operacao.
+            </summary>
+            <value>The estado operacao.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.StatusLan">
+            <summary>
+            Enum StatusLan
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.StatusLan.Conectado">
+            <summary>
+            The conectado
+            </summary>
+        </member>
+        <member name="F:OpenAC.Net.Sat.StatusLan.NaoConectado">
+            <summary>
+            The nao conectado
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.SatArquivoConfig">
+            <summary>
+            Classe de configuração de salvamento dos arquivos da NFe
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.SatArquivoConfig.#ctor">
+            <summary>
+            Inicializa uma nova instancia da classe <see cref="T:OpenAC.Net.Sat.SatArquivoConfig" />.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.SalvarCFe">
+            <summary>
+            Gets or sets a value indicating whether [salvar c fe].
+            </summary>
+            <value><c>true</c> if [salvar c fe]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.SalvarCFeCanc">
+            <summary>
+            Gets or sets a value indicating whether [salvar c fe canc].
+            </summary>
+            <value><c>true</c> if [salvar c fe canc]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.SalvarEnvio">
+            <summary>
+            Gets or sets a value indicating whether [salvar envio].
+            </summary>
+            <value><c>true</c> if [salvar envio]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.SepararPorCNPJ">
+            <summary>
+            Gets or sets a value indicating whether [separar por CNPJ].
+            </summary>
+            <value><c>true</c> if [separar por CNPJ]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.SepararPorMes">
+            <summary>
+            Gets or sets a value indicating whether [separar por mes].
+            </summary>
+            <value><c>true</c> if [separar por mes]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.PastaCFeVenda">
+            <summary>
+            Gets or sets the pasta c fe venda.
+            </summary>
+            <value>The pasta c fe venda.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.PastaCFeCancelamento">
+            <summary>
+            Gets or sets the pasta c fe cancelamento.
+            </summary>
+            <value>The pasta c fe cancelamento.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.PastaEnvio">
+            <summary>
+            Gets or sets the pasta envio.
+            </summary>
+            <value>The pasta envio.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.PrefixoArqCFe">
+            <summary>
+            Gets or sets the prefixo arq c fe.
+            </summary>
+            <value>The prefixo arq c fe.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.SatArquivoConfig.PrefixoArqCFeCanc">
+            <summary>
+            Gets or sets the prefixo arq c fe canc.
+            </summary>
+            <value>The prefixo arq c fe canc.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.SatGeralConfig">
+            <summary>
+            Classe com as configurações do SAT.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.SatGeralConfig.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.SatGeralConfig"/> class.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Events.CalcPathEventEventArgs">
+            <summary>
+            Class CalcPathEventEventArgs.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.CalcPathEventEventArgs.Path">
+            <summary>
+            Gets or sets the dados.
+            </summary>
+            <value>The dados.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.CalcPathEventEventArgs.CNPJ">
+            <summary>
+            Gets or sets the retorno.
+            </summary>
+            <value>The retorno.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.CalcPathEventEventArgs.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>The data.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Events.ChaveEventArgs">
+            <summary>
+            Class ChaveEventArgs.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.ChaveEventArgs.Chave">
+            <summary>
+            Gets or sets the chave.
+            </summary>
+            <value>The chave.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Events.EventoEventArgs">
+            <summary>
+            Class EventoEventArgs.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.EventoEventArgs.Retorno">
+            <summary>
+            Gets or sets the retorno.
+            </summary>
+            <value>The retorno.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Events.NumeroSessaoEventArgs">
+            <summary>
+            Class NumeroSessaoEventArgs.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="M:OpenAC.Net.Sat.Events.NumeroSessaoEventArgs.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Sat.Events.NumeroSessaoEventArgs"/> class.
+            </summary>
+            <param name="sessao">The sessao.</param>
+        </member>
+        <member name="P:OpenAC.Net.Sat.Events.NumeroSessaoEventArgs.Sessao">
+            <summary>
+            Gets or sets the sessao.
+            </summary>
+            <value>The sessao.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Interfaces.ICFeCofins">
+            <summary>
+            Interface ICFeCOFINS
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Interfaces.ICFeIcms">
+            <summary>
+            Interface ICFeICMS
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Interfaces.ICFeImposto">
+            <summary>
+            Interface ICFeImposto
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Interfaces.ICFePis">
+            <summary>
+            Interface ICFePIS
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Interfaces.ISatLibrary">
+            <summary>
+            Interface para padronizar a comunicação com as bibliotecas do SAT.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Library.SatLibrary">
+            <summary>
+            Class SatLibrary.
+            </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.Library.SatManager">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:OpenAC.Net.Sat.OpenSat">
+            <summary>
+            Classe OpenSat, responsavel por comunicar com o CF-e-SAT.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Core.Logging.IOpenLog" />
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnGetCodigoDeAtivacao">
+            <summary>
+            Ocorre quando é necessario pegar o valor do Codigo de Ativação.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnGetSignAC">
+            <summary>
+            Ocorre quando é necessario pegar o valor do SignAC.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnGetNumeroSessao">
+            <summary>
+            Ocorre que é necessario pegar o número da sessão.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnEnviarDadosVenda">
+            <summary>
+            Ocorre antes de enviar os dados da venda para o Sat.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnCancelarUltimaVenda">
+            <summary>
+            Ocorre antes de cancelar uma venda.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnConsultarSat">
+            <summary>
+            Ocorre quando é chamado o comando ConsultarSat para caso o usuario queria tratar esta função.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnConsultaStatusOperacional">
+            <summary>
+            Ocorre quando é chamado o comando ConsultaStatusOperacional para caso o usuario queria tratar esta função.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnExtrairLogs">
+            <summary>
+            Ocorre quando é chamado o comando ExtrairLogs para caso o usuario queria tratar esta função.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnConsultarNumeroSessao">
+            <summary>
+            Ocorre quando é chamado o comando ConsultarNumeroSessao para caso o usuario queria tratar esta função.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnMensagemSefaz">
+            <summary>
+            Ocorre quando tem alguma mensagem da Sefaz no retorno do SAT.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.OnCalcPath">
+            <summary>
+            Ocorre quando é necessario calcular o Path para salvar os Xmls.
+            </summary>
+        </member>
+        <member name="E:OpenAC.Net.Sat.OpenSat.AguardandoRespostaChanged">
+            <summary>
+            Ocorre quando o componente entra ou sai de um processamento.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Configuracoes">
+            <summary>
+            Configurações do OpenSat
+            </summary>
+            <value>The configuracoes.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Arquivos">
+            <summary>
+            Configurações de como OpenSat vai se comportar com os arquivos gerado e recebido.
+            </summary>
+            <value>The arquivos.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Encoding">
+            <summary>
+            Enconding usado para tratar as string que são enviadas/recebidas.
+            </summary>
+            <value>O Enconder</value>
+            <exception cref="T:System.Exception">Não é possível definir a propriedade com o componente ativo</exception>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Modelo">
+            <summary>
+            Define/retorna o modelo a ser utilizado pelo OpenSat.
+            </summary>
+            <value>The modelo.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Ativo">
+            <summary>
+            Retorna o indicador se o componente esta ativo ou não.
+            </summary>
+            <value><c>true</c> se está ativo; senão, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.AguardandoResposta">
+            <summary>
+            Retorna o indicador se o componente esta em aguardando uma resposta ou não.
+            </summary>
+            <value><c>true</c> se estiver aguardando uma resposta; senão, <c>false</c>.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.Sessao">
+            <summary>
+            Retorna o número da sessão atual.
+            </summary>
+            <value>The sessao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.CodigoAtivacao">
+            <summary>
+            Define/retorna o código usado para ativar o Sat
+            </summary>
+            <value>Código ativacao.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.SignAC">
+            <summary>
+            Define/retorna a assinatura de (CNPJ Software House + CNPJ Emitente) que gerou o CF-e </summary>
+            <value>SignAC.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.OpenSat.PathDll">
+            <summary>
+            Define/retorna o caminho onde se encontra a biblioteca do Sat.
+            </summary>
+            <value>O caminho da dll.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.Ativar">
+            <summary>
+            Ativa o OpenSat, obrigatorio antes de chamar qualquer metodo.
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.Desativar">
+            <summary>
+            Desativa o OpenSat e libera a lib nativa
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.NewCFe">
+            <summary>
+            Retorna uma nova instancia da classe CFe com os dados inciais preenchidos.
+            </summary>
+            <returns>CFe Iniciada.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.AssociarAssinatura(System.String,System.String)">
+            <summary>
+            Associa a sua assinatura ao Sat
+            </summary>
+            <param name="cnpj">The CNPJ.</param>
+            <param name="assinaturaCnpj">The assinatura CNPJ.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.AtivarSAT(System.Int32,System.String,System.Int32)">
+            <summary>
+            Função para ativa o Sat.
+            </summary>
+            <param name="subComando">The sub comando.</param>
+            <param name="cnpj">The CNPJ.</param>
+            <param name="uf">The uf.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.AtualizarSoftwareSAT">
+            <summary>
+            Envia um comando para o Sat se atualizar.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.BloquearSAT">
+            <summary>
+            Bloquea o Sat.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.DesbloquearSAT">
+            <summary>
+            Libera o Sat.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.CancelarUltimaVenda(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Cancelar o CFe Informado
+            </summary>
+            <param name="cfe">CFe para cancelar.</param>
+            <returns>CancelamentoSatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.CancelarUltimaVenda(OpenAC.Net.Sat.CFeCanc)">
+            <summary>
+            Cancela a venda relacionada a classe de cancelamento informada.
+            </summary>
+            <param name="cfeCanc">The cfe canc.</param>
+            <returns>CancelamentoSatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.CancelarUltimaVenda(System.String,System.String)">
+            <summary>
+            Cancela a venda
+            </summary>
+            <param name="chave">A chave da CFe pra cancelar.</param>
+            <param name="dadosCancelamento">XML de cancelamento.</param>
+            <returns>CancelamentoSatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ComunicarCertificadoIcpBrasil(System.String)">
+            <summary>
+            Seta o certificado para o Sat usa.
+            So use caso você utiliza certificado Icp Brasil (NFe).
+            </summary>
+            <param name="certificado">The certificado.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ConfigurarInterfaceDeRede(OpenAC.Net.Sat.SatRede)">
+            <summary>
+            Configura a interface de rede do Sat.
+            </summary>
+            <param name="config">The configuration.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ConsultarNumeroSessao(System.Int32)">
+            <summary>
+            Consulta os dados da sessão informada.
+            </summary>
+            <param name="numeroSessao">The numero sessao.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ConsultarUltimaSessaoFiscal">
+            <summary>
+            Consulta os dados da sessão informada.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ConsultarSAT">
+            <summary>
+            Consulta a situação do Sat.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ConsultarStatusOperacional">
+            <summary>
+            Consulta a situação operacional do Sat.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.EnviarDadosVenda(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Envia os dados da venda para o Sat.
+            </summary>
+            <param name="cfe">The cfe.</param>
+            <returns>VendaSatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.ExtrairLogs">
+            <summary>
+            Extrai os logs do Sat.
+            </summary>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.TesteFimAFim(OpenAC.Net.Sat.CFe)">
+            <summary>
+            Realiza um teste de fim a fim no Sat.
+            </summary>
+            <param name="cfe">The cfe.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.TrocarCodigoDeAtivacao(System.String,System.Int32,System.String)">
+            <summary>
+            Troca o codigo de ativação do Sat.
+            </summary>
+            <param name="codigo">The novo codigo.</param>
+            <param name="opcao">The opcao.</param>
+            <param name="novoCodigo">The conf novo codigo.</param>
+            <returns>SatResposta.</returns>
+        </member>
+        <member name="M:OpenAC.Net.Sat.OpenSat.GerarSignAc(System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.String)">
+            <summary>
+            Gera o SignAC usando o certificado informado.
+            </summary>
+            <param name="certificado">O certificado.</param>
+            <param name="CNPJSoftwareHouse">O CNPJ da software house.</param>
+            <param name="CNPJEstbComercial">O CNPJ do estabelecimento comercial.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:OpenAC.Net.Sat.CancelamentoSatResposta">
+            <summary>
+            Classe que retorna a resposta do Sat quando usado o metodo de cancelamento.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.SatResposta" />
+        </member>
+        <member name="M:OpenAC.Net.Sat.CancelamentoSatResposta.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            Inicializar uma nova instancida da classe <see cref="T:OpenAC.Net.Sat.CancelamentoSatResposta"/>.
+            </summary>
+            <param name="retorno">O retorno.</param>
+            <param name="encoding">O encoding.</param>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CancelamentoSatResposta.Cancelamento">
+            <summary>
+            Retorna o cancelamento caso tenha ocorrido com sucesso.
+            </summary>
+            <value>The cancelamento.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.CancelamentoSatResposta.QRCode">
+            <summary>
+            Retorna o QRCode caso tenha sido realizado com sucesso.
+            </summary>
+            <value>The qr code.</value>
+        </member>
+        <member name="M:OpenAC.Net.Sat.ConsultaSessaoResposta.#ctor(System.String,System.Text.Encoding)">
+            <inheritdoc />
+        </member>
+        <member name="P:OpenAC.Net.Sat.ConsultaSessaoResposta.QRCode">
+            <summary>
+            Retorna o QRCode caso tenha sido realizado com sucesso.
+            </summary>
+            <value>The qr code.</value>
+        </member>
+        <member name="T:OpenAC.Net.Sat.VendaSatResposta">
+            <summary>
+            Classe que retorna a resposta do Sat quando usado o metodo de venda.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Sat.SatResposta" />
+        </member>
+        <member name="M:OpenAC.Net.Sat.VendaSatResposta.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            Inicializa uma nova instancia da classe <see cref="T:OpenAC.Net.Sat.VendaSatResposta"/>.
+            </summary>
+            <param name="retorno">O retorno.</param>
+            <param name="encoding">O encoding.</param>
+        </member>
+        <member name="P:OpenAC.Net.Sat.VendaSatResposta.Venda">
+            <summary>
+            Retorna o CFe caso tenha sido realizado com sucesso.
+            </summary>
+            <value>A venda.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.VendaSatResposta.NumeroCupomFiscal">
+            <summary>
+            Retorna o número do cumpo fiscal.
+            </summary>
+            <value>The venda.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.VendaSatResposta.ChaveConsulta">
+            <summary>
+            Retorna a chave de consulta do CFe caso tenha sido realizado com sucesso.
+            </summary>
+            <value>The chave consulta.</value>
+        </member>
+        <member name="P:OpenAC.Net.Sat.VendaSatResposta.QRCode">
+            <summary>
+            Retorna o QRCode caso tenha sido realizado com sucesso.
+            </summary>
+            <value>The qr code.</value>
+        </member>
+    </members>
+</doc>

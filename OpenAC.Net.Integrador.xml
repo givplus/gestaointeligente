@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenAC.Net.Integrador</name>
+    </assembly>
+    <members>
+        <member name="T:OpenAC.Net.Integrador.NumeroSessaoEventArgs">
+            <summary>
+            Class NumeroSessaoEventArgs.
+            </summary>
+            <seealso cref="T:System.EventArgs" />
+        </member>
+        <member name="M:OpenAC.Net.Integrador.NumeroSessaoEventArgs.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Integrador.NumeroSessaoEventArgs"/> class.
+            </summary>
+            <param name="sessao">The sessao.</param>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.NumeroSessaoEventArgs.Sessao">
+            <summary>
+            Gets or sets the sessao.
+            </summary>
+            <value>The sessao.</value>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.IntegradorConfig.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenAC.Net.Integrador.IntegradorConfig"/> class.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.IntegradorParametroCollection.InsertParametro(System.Int32,System.String,System.String)">
+            <summary>
+            Insere um paramentro na lista na posição informada.
+            </summary>
+            <param name="idx"></param>
+            <param name="nome"></param>
+            <param name="valor"></param>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.IntegradorParametroCollection.AddParametro(System.String,System.String)">
+            <summary>
+            Adiciona um parametro na lista.
+            </summary>
+            <param name="nome"></param>
+            <param name="valor"></param>
+        </member>
+        <member name="T:OpenAC.Net.Integrador.OpenIntegrador">
+            <summary>
+            Classe OpenIntegrador, responsavel por comunicar com o integrador fiscal do Ceará.
+            </summary>
+            <seealso cref="T:OpenAC.Net.Core.OpenComponent" />
+            <seealso cref="T:OpenAC.Net.Core.Logging.IOpenLog" />
+        </member>
+        <member name="E:OpenAC.Net.Integrador.OpenIntegrador.OnGetNumeroSessao">
+            <summary>
+            Ocorre que é necessario pegar o número da sessão.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.Configuracoes">
+            <summary>
+            Configurações para comunicação do integrador.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.NumeroSessao">
+            <summary>
+            Retorna o número da sessão atual.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.NomeComponente">
+            <summary>
+            Define/retorna o nome do componente que vai ser utilizado.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.NomeMetodo">
+            <summary>
+            Define/retorna o nome do metodo que vai ser utilizado.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.Parametros">
+            <summary>
+            Parametros do metodo.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.ComandoEnviado">
+            <summary>
+            Retorna o comando enviado para o integrador fiscal.
+            </summary>
+        </member>
+        <member name="P:OpenAC.Net.Integrador.OpenIntegrador.UltimaResposta">
+            <summary>
+            Retorna a última resposta do integrador fiscal.
+            </summary>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.ConsultarNumeroSessaoIntegrador(System.Int32)">
+            <summary>
+            Consulta a sessão informada do integrador.
+            </summary>
+            <param name="numeroSessao">Número da sessão para consultar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.EnviarPagamento(System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.String,System.Boolean,System.Boolean,System.String,System.Boolean)">
+            <summary>
+            Enviar as informações de pagamento para o integrador fiscal.
+            </summary>
+            <param name="chaveRequisicao"></param>
+            <param name="estabelecimento"></param>
+            <param name="serialPOS"></param>
+            <param name="cnpj"></param>
+            <param name="icmsBase"></param>
+            <param name="valorTotalVenda"></param>
+            <param name="origemPagamento"></param>
+            <param name="habilitarMultiplosPagamentos"></param>
+            <param name="habilitarControleAntiFraude"></param>
+            <param name="codigoMoeda"></param>
+            <param name="emitirCupomNFCE"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.VerificarStatusValidador(System.Int32,System.String)">
+            <summary>
+            Verifica a situação do validador.
+            </summary>
+            <param name="idFila"></param>
+            <param name="cnpj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.EnviarStatusPagamento(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Decimal,System.Int32,System.String,System.Int32)">
+            <summary>
+            Envia a situação do pagamento.
+            </summary>
+            <param name="codigoAutorizacao"></param>
+            <param name="bin"></param>
+            <param name="donoCartao"></param>
+            <param name="dataExpiracao"></param>
+            <param name="instituicaoFinanceira"></param>
+            <param name="parcelas"></param>
+            <param name="codigoPagamento"></param>
+            <param name="valorPagamento"></param>
+            <param name="idFila"></param>
+            <param name="tipo"></param>
+            <param name="ultimosQuatroDigitos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.RespostaFiscal(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Pega a resposta fiscal do pagamento.
+            </summary>
+            <param name="idFila"></param>
+            <param name="chaveAcesso"></param>
+            <param name="nsu"></param>
+            <param name="numeroAprovacao"></param>
+            <param name="bandeira"></param>
+            <param name="adquirinte"></param>
+            <param name="cnpj"></param>
+            <param name="impressaofiscal"></param>
+            <param name="numeroDocumento"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.Enviar(System.Boolean)">
+            <summary>
+            Envia o comando para o integrador ficasl.
+            </summary>
+            <param name="adicionarNumeroSessao">Se adicionar o número da sessão nos parametros.</param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.OnInitialize">
+            <inheritdoc />
+        </member>
+        <member name="M:OpenAC.Net.Integrador.OpenIntegrador.OnDisposing">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
